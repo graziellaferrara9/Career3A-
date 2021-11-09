@@ -1,0 +1,64 @@
+.intro{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
+}
+
+.heroimage{
+    width: 45vw;
+    height: auto;
+}
+
+.rightstuff{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careerpics{
+    background-color: #4227F2;
+    width: 100vw;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.careerbubble{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews{
+   display: grid; 
+   grid-template-columns: 4fr 4fr 4fr;
+   gap: 20px;
+}
+
+.review{
+    border: solid 1px;
+    border-color: black;
+    padding: 20px;
+}
+
+.namestars{
+    display: flex;
+}
+
+.footer{
+    width: 100vw;
+}
